@@ -5,7 +5,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 import asyncio
 
 
-api = '7371378698:AAE8-SNvT1_eV2Wo2-yyl5NIWKie4Z1iUP4'
+api = '7345852'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
@@ -87,7 +87,7 @@ async def send_calories(message, state):
 async def get_buying_list(message):
     for i in range(1, 5):
         await message.answer(f'Название: Product{i} | 'f'Описание: описание {i} | 'f'Цена: {i * 100}')
-        with open (f'{str(i)}', 'rb') as jpg:
+        with open (f'{картинки/str(i)}', 'rb') as jpg:
             await message.answer_photo(jpg)
     i += 1
 

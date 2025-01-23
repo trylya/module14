@@ -7,7 +7,7 @@ from crud_functions_14_5 import *
 
 import sqlite3
 
-api = '7371378698:AAE8-SNvT1_eV2Wo2-yyl5NIWKie4Z1iUP4'
+api = '73525'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 

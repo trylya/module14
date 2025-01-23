@@ -7,7 +7,7 @@ import config
 import sqlite3
 from crud_functions import get_all_products
 
-api = '7371378698:AAE8-SNvT1_eV2Wo2-yyl5NIWKie4Z1iUP4'
+api = '73'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
